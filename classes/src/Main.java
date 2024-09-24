@@ -18,5 +18,7 @@ public class Main {
         System.out.println("O gato se chama: "+ alfredo.nome);
         System.out.println("A cor de alfredo é: " + alfredo.cor);
         System.out.println(alfredo.peso + "Kgs é o peso de Alfredo");
+
+        System.out.println(alfredo.nome + " disse que a resposta é: " + alfredo.conta());
     }
 }
