@@ -20,8 +20,7 @@ public class Maquina {
     }
     private void Venda(int choice){
         this.choice = choice;
-        int opt = choice;
-        switch (opt){
+        switch (choice){
             case 1:
                 System.out.println("Insira o valor do ticket viagem.");
                 int value = scan.nextInt();
