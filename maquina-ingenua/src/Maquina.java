@@ -27,7 +27,7 @@ public class Maquina {
                 while (true){
                     if (value <= ticket_viagem){
                         int restante = ticket_viagem - value;
-                        while (restante !=0){
+                        while (restante >0){
                             System.out.println("Restante $"+ restante);
                             int resto = scan.nextInt();
                             restante = restante - resto;
